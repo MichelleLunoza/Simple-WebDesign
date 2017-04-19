@@ -1,0 +1,769 @@
+Started GET "/" for ::1 at 2017-04-19 10:22:46 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 2770ms (Views: 2752.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome_page/index" for ::1 at 2017-04-19 10:22:58 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/welcome_page/index"):
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /home/michelle/.gem/ruby/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/michelle/.gem/ruby/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/michelle/.gem/ruby/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.0ms)
+  Rendered collection of /home/michelle/.gem/ruby/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [2 times] (3.4ms)
+  Rendered /home/michelle/.gem/ruby/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (12.7ms)
+  Rendering /home/michelle/.gem/ruby/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/michelle/.gem/ruby/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.4ms)
+  Rendered /home/michelle/.gem/ruby/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (60.7ms)
+Started GET "/web_app/homepage" for ::1 at 2017-04-19 10:23:07 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 51ms (Views: 48.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-19 10:23:12 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 44ms (Views: 42.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-19 10:23:44 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 45ms (Views: 42.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-19 10:24:09 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 588ms (Views: 571.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-19 10:33:48 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 92ms (Views: 89.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/hero.jpg" for ::1 at 2017-04-19 10:33:49 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/images/hero.jpg"):
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /home/michelle/.gem/ruby/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/michelle/.gem/ruby/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/michelle/.gem/ruby/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered collection of /home/michelle/.gem/ruby/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [2 times] (3.8ms)
+  Rendered /home/michelle/.gem/ruby/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (14.2ms)
+  Rendering /home/michelle/.gem/ruby/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/michelle/.gem/ruby/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.6ms)
+  Rendered /home/michelle/.gem/ruby/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (61.3ms)
+Started GET "/" for ::1 at 2017-04-19 10:35:14 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 30ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "...und-color: #fff": expected "{", was ";"):
+    4:     <title>WebApp</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/web_app.scss:4
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___3519490837033946284_70064069993880'
+  Rendering /home/michelle/.gem/ruby/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/michelle/.gem/ruby/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/michelle/.gem/ruby/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (11.1ms)
+  Rendering /home/michelle/.gem/ruby/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/michelle/.gem/ruby/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.8ms)
+  Rendering /home/michelle/.gem/ruby/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/michelle/.gem/ruby/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /home/michelle/.gem/ruby/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (56.6ms)
+Started GET "/" for ::1 at 2017-04-19 10:35:42 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 87ms (Views: 84.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-19 10:36:11 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 138ms (Views: 136.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-19 10:36:59 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 54ms (Views: 51.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-19 10:37:59 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 138ms (Views: 135.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/hero.jpg" for ::1 at 2017-04-19 10:37:59 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/images/hero.jpg"):
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /home/michelle/.gem/ruby/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/michelle/.gem/ruby/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/michelle/.gem/ruby/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered collection of /home/michelle/.gem/ruby/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [2 times] (4.0ms)
+  Rendered /home/michelle/.gem/ruby/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.9ms)
+  Rendering /home/michelle/.gem/ruby/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/michelle/.gem/ruby/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.6ms)
+  Rendered /home/michelle/.gem/ruby/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (51.2ms)
+Started GET "/" for ::1 at 2017-04-19 10:39:04 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 135ms (Views: 133.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/hero.jpg" for ::1 at 2017-04-19 10:39:05 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/images/hero.jpg"):
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /home/michelle/.gem/ruby/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/michelle/.gem/ruby/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/michelle/.gem/ruby/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered collection of /home/michelle/.gem/ruby/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [2 times] (2.7ms)
+  Rendered /home/michelle/.gem/ruby/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.3ms)
+  Rendering /home/michelle/.gem/ruby/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/michelle/.gem/ruby/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /home/michelle/.gem/ruby/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (43.4ms)
+Started GET "/" for ::1 at 2017-04-19 10:43:12 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 145ms (Views: 140.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-19 10:44:59 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 64ms (Views: 61.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-19 10:45:05 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 58ms (Views: 55.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-19 10:45:14 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 73ms (Views: 70.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-19 10:45:15 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 54ms (Views: 51.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-19 10:45:16 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 62ms (Views: 57.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-19 10:45:16 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 60ms (Views: 57.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-19 10:45:17 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 60ms (Views: 57.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-19 10:45:35 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 121ms (Views: 118.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-19 10:46:28 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 78ms (Views: 76.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-19 10:46:28 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 44ms (Views: 42.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-19 10:46:31 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 87ms (Views: 85.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-19 10:47:09 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 59ms (Views: 56.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-19 10:47:25 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 50ms (Views: 47.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-19 10:49:34 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 49ms (Views: 46.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-19 10:49:36 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 53ms (Views: 50.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-19 10:51:26 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 60ms (Views: 58.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-19 10:51:28 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 47ms (Views: 41.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-19 10:52:05 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 47ms (Views: 45.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-19 10:52:08 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 66ms (Views: 60.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-19 10:52:10 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 69ms (Views: 66.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-19 10:52:13 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 59ms (Views: 56.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-19 10:56:14 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 94ms (Views: 91.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/n" for ::1 at 2017-04-19 10:56:17 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/n"):
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /home/michelle/.gem/ruby/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/michelle/.gem/ruby/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/michelle/.gem/ruby/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered collection of /home/michelle/.gem/ruby/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [2 times] (2.8ms)
+  Rendered /home/michelle/.gem/ruby/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.4ms)
+  Rendering /home/michelle/.gem/ruby/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/michelle/.gem/ruby/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.3ms)
+  Rendered /home/michelle/.gem/ruby/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (48.3ms)
+Started GET "/" for ::1 at 2017-04-19 10:57:35 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 608ms (Views: 590.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-19 10:57:59 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 47ms (Views: 45.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-19 11:08:55 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 45ms (Views: 43.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-19 11:13:01 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 743ms (Views: 725.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-19 11:13:29 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 150ms (Views: 147.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-19 11:14:47 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 153ms (Views: 150.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-19 11:15:45 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 160ms (Views: 157.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-19 11:17:24 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 119ms (Views: 117.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-19 11:17:36 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 125ms (Views: 122.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-19 11:17:48 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 128ms (Views: 126.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-19 11:18:39 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 135ms (Views: 132.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-19 11:21:08 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 145ms (Views: 142.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-19 11:21:19 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 140ms (Views: 138.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-19 11:21:48 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 168ms (Views: 166.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-19 11:22:05 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 140ms (Views: 137.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-19 11:22:39 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 143ms (Views: 139.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-19 11:22:51 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 141ms (Views: 138.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-19 11:23:04 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 134ms (Views: 132.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-19 11:23:18 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 140ms (Views: 137.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-19 11:23:35 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 137ms (Views: 135.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-19 11:28:01 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 144ms (Views: 139.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-19 11:29:38 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 139ms (Views: 137.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-19 11:30:11 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 133ms (Views: 131.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-19 11:30:32 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 126ms (Views: 122.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-19 11:33:11 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 183ms (Views: 178.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-19 11:33:16 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 62ms (Views: 59.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-19 11:33:20 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 57ms (Views: 54.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-19 11:33:21 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 51ms (Views: 49.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-19 11:33:21 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 52ms (Views: 49.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-19 11:33:21 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 54ms (Views: 48.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-19 11:33:26 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 48ms (Views: 45.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-19 11:33:57 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 47ms (Views: 44.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-19 11:34:26 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 84ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "	padding-bottom: ": expected expression (e.g. 1px, bold), was ": 10px;"):
+    4:     <title>WebApp</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/web_app.scss:126
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___1802565235778564587_69956293376540'
+  Rendering /home/michelle/.gem/ruby/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/michelle/.gem/ruby/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/michelle/.gem/ruby/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (13.6ms)
+  Rendering /home/michelle/.gem/ruby/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/michelle/.gem/ruby/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.8ms)
+  Rendering /home/michelle/.gem/ruby/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/michelle/.gem/ruby/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /home/michelle/.gem/ruby/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (52.9ms)
+Started GET "/" for ::1 at 2017-04-19 11:34:39 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 159ms (Views: 154.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-19 11:34:48 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 143ms (Views: 141.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-19 11:34:49 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 48ms (Views: 45.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-19 11:34:51 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 49ms (Views: 47.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-19 11:34:59 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 132ms (Views: 130.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-19 11:35:56 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 173ms (Views: 171.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-19 11:39:34 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 67ms (Views: 64.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-19 11:39:35 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 48ms (Views: 46.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-19 11:54:05 +0800
+Processing by WebAppController#homepage as HTML
+  Rendering web_app/homepage.html.erb within layouts/application
+  Rendered web_app/homepage.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 618ms (Views: 600.5ms | ActiveRecord: 0.0ms)
+
+
