@@ -14,7 +14,7 @@ h1 {
 
 h2 {
 	font-weight: 300;
-	color: #444;
+	color: #ca2e39;
 	font-size: 55px;
 	text-transform: uppercase;
 	text-align: center;
@@ -43,7 +43,7 @@ a {
 }
 
 a:hover {
-	color: #02b8dd;
+	color: #ca2e39;
 }
 
 strong {
@@ -65,7 +65,7 @@ header h1 {
 }
 
 header h1 .color {
-	color: #02b8dd;
+	color: #ca2e39;
 }
 
 header nav {
@@ -87,9 +87,9 @@ header nav ul li a {
 }
 
 #hero-image {
-	height: 500px;
+	height: 580px;
 	padding-top: 1px;
-	background-color: #e8eced;
+	background: url('/assets/background.jpg') no-repeat center;
 }
 
 #hero-image h2 {
@@ -99,7 +99,7 @@ header nav ul li a {
 .button-1 {
 	display: block;
 	text-align: center;
-	background: #444;
+	background: #eb8e86;
 	border-radius: 3px;
 	color: #fff;
 	width: 180px;
@@ -110,7 +110,7 @@ header nav ul li a {
 }
 
 .button-1:hover {
-	background-color: #02b8dd;
+	background-color: #ca2e39;
 	color: #fff;
 }
 #features ul {
